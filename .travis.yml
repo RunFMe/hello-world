@@ -2,6 +2,10 @@ dist: trusty
 sudo: require
 language: cpp
 compiler: gcc
+notifications:
+  email:
+    on_success: always
+    on_failure: always
 addons:
   apt:
     sources:
